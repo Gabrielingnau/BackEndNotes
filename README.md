@@ -24,25 +24,25 @@ Before you begin, you will need to have the following tools installed on your ma
 Also, it's good to have an editor to work with the code, such as [VSCode](https://code.visualstudio.com/)
 
 Inside the VsCode terminal write the following code
-
-```
+```bash
 git init
-```
 
-```
 git clone https://github.com/Gabrielingnau/BackEndNotes
-```
-Then intade the dependencies with
 
-```
-npm install
+# In the BackEnd insert a port and a secret in the empty .env file
+  AUTH_SECRET=
+  PORT=
+
+# Install the necessary dependencies
+$ npm install
+
+# Now start the BackEnd server
+$ npm run dev
+
+# The server will start at port:3333 - go to <http://localhost:3333>
 ```
 
-Then just run the project with
-
-```
-npm run dev
-```
+---
 
 ## 🛠️ Built with
 
