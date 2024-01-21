@@ -29,10 +29,6 @@ git init
 
 git clone https://github.com/Gabrielingnau/BackEndNotes
 
-# In the BackEnd insert a port and a secret in the empty .env file
-  AUTH_SECRET=
-  PORT=
-
 # Install the necessary dependencies
 $ npm install
 
